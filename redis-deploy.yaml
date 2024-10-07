@@ -22,5 +22,5 @@ spec:
         - name: redis
           image: redis
           ports:
-            containerPort: 6379   #default port for redis-service
+            - containerPort: 6379   #default port for redis-service
       
